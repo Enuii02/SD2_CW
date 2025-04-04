@@ -1,12 +1,9 @@
 #include <iostream>  // Standard input-output library
 #include <string>
-#include "constants.h"
-#include "Monster.h"
+#include "profiles.h"
+#include "features.h"
 
-// Entry point of the program
 int main() {
-    std::cout << "My favorite number is: " << FAV_NUM << std::endl;  // Print message to console
-    Monster monster;
-    monster.SayHello();
-    return 0;  // Return 0 to indicate successful execution
+    
+    return 0;  
 }
